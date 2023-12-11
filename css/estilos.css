@@ -1,0 +1,381 @@
+body {
+    font-family: sans-serif;
+    /* fuente de toda la pagina */
+}
+
+
+/* ***********************************Barra de busqueda (index.php)*************************************** */
+
+nav {
+    /* estilos de la barra de navegacion */
+    background-color: #11BB66;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* ***********************************Banner de busqueda*************************************** */
+
+.welcome {
+    text-align: center;
+}
+
+
+/* ************************************Barra de busqueda*************************************** */
+
+.buscar {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.buscar input {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 25px;
+    width: 50%;
+}
+
+.buscar button {
+    background-color: #11BB66;
+    color: #FFFF;
+    border-style: none;
+    margin: 0 .5rem;
+    height: 4rem;
+    width: 16rem;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.buscar button:hover {
+    background-color: #00A151;
+    cursor: pointer;
+}
+
+
+/* ************************************clasificaciones******************************************* */
+
+main {
+    padding-top: 1rem;
+    display: flex;
+    text-align: center;
+}
+
+.contenido {
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+    padding: 30px;
+}
+
+.contenido button {
+    background-color: #11BB66;
+    color: #FFFF;
+    border-style: none;
+    margin: 0 .5rem;
+    height: 4rem;
+    width: 16rem;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.contenido button:hover {
+    background-color: #00A151;
+    cursor: pointer;
+}
+
+.contenido button a {
+    color: #FFFF;
+    text-decoration: none;
+}
+
+.bloque {
+    background-color: #00A0DE;
+    color: #FFFF;
+    width: 50%;
+    padding: 30px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.bloque:nth-last-child(-n+3) {
+    background-color: #FFC538;
+    color: #FFFF;
+    width: 50%;
+    padding: 30px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.bloque:nth-last-child(-n+3):hover {
+    background-color: #E09E00;
+    cursor: pointer;
+}
+
+.bloque a {
+    color: #FFFF;
+    text-decoration: none;
+}
+
+.bloque:hover {
+    background-color: #007EAF;
+    cursor: pointer;
+}
+
+
+/* ************************************pie de pagina********************************************* */
+
+footer {
+    background-color: #11BB66;
+    color: #FFFF;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ******************************resultados de la busqueda**************************************** */
+
+.result {
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+    padding: 30px;
+}
+
+.result table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.result table th {
+    padding: 10px;
+    background-color: #00A0DE;
+    color: #FFFF;
+}
+
+.result table td {
+    padding: 1rem;
+}
+
+.result table tr:nth-child(odd) {
+    background-color: #CAF0FF;
+}
+
+.result button {
+    background-color: #11BB66;
+    color: #FFFF;
+    border-style: none;
+    margin: 0 .5rem;
+    height: 4rem;
+    width: 16rem;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.result button a {
+    color: #FFFF;
+    text-decoration: none;
+}
+
+
+/* ***************************Opciones del admin***************************** */
+
+.action_admin {
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+    padding: 30px;
+}
+
+.action_admin table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.action_admin table th {
+    padding: 10px;
+    background-color: #00A0DE;
+    color: #FFFF;
+}
+
+.action_admin table td {
+    padding: 1rem;
+}
+
+.action_admin #mod {
+    text-decoration: none;
+    color: #5D27F7;
+}
+
+.action_admin #del {
+    text-decoration: none;
+    color: #F34C4C;
+}
+
+.action_admin table tr:nth-child(odd) {
+    background-color: #CAF0FF;
+}
+
+.action_admin button {
+    background-color: #00A0DE;
+    color: #FFFF;
+    border-style: none;
+    margin: 0 .5rem;
+    height: 4rem;
+    width: 16rem;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.action_admin button:hover {
+    background-color: #007EAF;
+    cursor: pointer;
+}
+
+.action_admin button:last-child {
+    background-color: #11BB66;
+    color: #FFFF;
+}
+
+.action_admin button:last-child:hover {
+    background-color: #00A151;
+    cursor: pointer;
+}
+
+.action_admin button a {
+    color: #FFFF;
+    text-decoration: none;
+}
+
+
+/* ***************************************LOGIN***************************************** */
+
+.login {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.login input {
+    font-size: 20px;
+    width: 40%;
+}
+
+.login input:last-child {
+    background-color: #11BB66;
+    color: #FFFF;
+    border-style: none;
+    margin: 0 .5rem;
+    height: 4rem;
+    width: 16rem;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.login input:last-child:hover {
+    background-color: #00A151;
+    cursor: pointer;
+}
+
+.error {
+    text-align: center;
+    color: #F34C4C;
+}
+
+
+/* *************************************Agregar datasheetssheet******************************** */
+
+.add {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.add input {
+    font-size: 20px;
+    width: 40%;
+}
+
+.add input:last-child {
+    background-color: #11BB66;
+    color: #FFFF;
+    border-style: none;
+    margin: 0 .5rem;
+    height: 4rem;
+    width: 16rem;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.add input:last-child:hover {
+    background-color: #00A151;
+    cursor: pointer;
+}
+
+.add select {
+    font-size: 20px;
+    width: 40%;
+}
+
+
+/* *******************************************Editar Datasheet***************************************+ */
+
+.edit {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.edit input {
+    font-size: 20px;
+    width: 40%;
+}
+
+.edit input:last-child {
+    background-color: #00A0DE;
+    color: #FFFF;
+    border-style: none;
+    margin: 0 .5rem;
+    height: 4rem;
+    width: 16rem;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.edit input:last-child:hover {
+    background-color: #007EAF;
+    cursor: pointer;
+}
+
+.edit select {
+    font-size: 20px;
+    width: 40%;
+}
+
+.edit button {
+    background-color: #E5421F;
+    color: #FFFF;
+    border-style: none;
+    margin: 0 .5rem;
+    height: 4rem;
+    width: 16rem;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.edit button:hover {
+    background-color: #F87458;
+    cursor: pointer;
+}
+
+.edit button a {
+    color: #FFFF;
+    text-decoration: none;
+}
